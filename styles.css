@@ -1,2 +1,54 @@
-/* Move your styles here when you're ready to clean up your HTML file */
-/* Don't forget to link to this file in your HTML, otherwise your styles won't show up! */
+body{
+  font-size: 25px;
+}
+
+h1 h2 {
+  font-family: Garamond, ‘Hoefler Text’, ‘Times New Roman’, Times, serif;
+
+}
+
+header {
+  border-bottom: thick solid blue;
+}
+
+.item{
+  border: thick solid pink;
+}
+
+.even {
+  background-color: grey;
+}
+
+.odd {
+  color: white;
+  background-color: black;
+}
+
+#item1 {
+  font-size: 30px
+}
+
+#item2 {
+  text-align: right;
+}
+
+ol {
+  padding: 0.25em;
+  background-color: grey;
+}
+
+ol > li:nth-child(odd) {
+  background-color: green;
+}
+
+a[title=Bitmaker]:hover {
+  text-decoration: none;
+}
+
+ol ul li a:hover{
+    background-color: yellow;
+}
+
+ol ul li a:active{
+  background-color: red;
+}
